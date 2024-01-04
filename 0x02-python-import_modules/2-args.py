@@ -5,10 +5,10 @@ if __name__ == "__main__":
 arguments = sys.argv
 length = len(arguments) - 1
 
-if length  == 0:
+if length == 0:
     print("{} arguments.".format(length))
 
-elif length  > 1:
+elif length > 1:
     print("{} arguments:".format(length))
     for i, arg in enumerate(arguments):
         if i == 0:
