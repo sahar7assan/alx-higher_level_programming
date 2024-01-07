@@ -3,10 +3,10 @@ def print_list_integer(my_list=[]):
     """Function print list element
 
     Args:
-        my_list:list of element
+        my_list:list of integers
 
     Returns:
-        nothing
+        None
     """
     for i in my_list:
-        print("{}".format(i))
+        print("{:d}".format(i))
