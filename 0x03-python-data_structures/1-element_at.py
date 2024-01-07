@@ -10,10 +10,9 @@ def element_at(my_list, idx):
         element in index idx
     """
     length = len(my_list)
-    if idx < length:
-        return my_list[idx]
-
     if idx < 0:
         return None
-    elif idx > length:
+    if idx < length:
+        return my_list[idx]
+    else:
         return None
