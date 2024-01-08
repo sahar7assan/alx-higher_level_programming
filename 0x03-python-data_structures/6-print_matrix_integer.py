@@ -8,6 +8,8 @@ def print_matrix_integer(matrix=[[]]):
     Returns:
         None
     """
+    if matrix None:
+        return
     for row in matrix:
         for element in row:
             print("{:d}".format(element), end='')
