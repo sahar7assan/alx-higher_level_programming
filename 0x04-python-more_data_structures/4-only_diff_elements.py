@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def only_diff_elements(set_1, set_2):
-    """function differnce element between 2 sets
+    """function return set of all elements present in only one set
 
     Args:
         set_1: first set
